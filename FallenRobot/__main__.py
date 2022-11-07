@@ -81,46 +81,39 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-๏ 𝐇𝐈 𝐌𝐑./𝐌𝐈𝐒𝐒 {} 😅 
+๏ 🤖𝐇𝐞𝐥𝐥𝐨❤️{} 
 
-            🌹𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐇𝐞𝐫𝐞🌹
+             🌹𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐆𝐨𝐨𝐠𝐥𝐞𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭𝐁𝐎𝐓🤖
 
-♧ 𝗠𝗬𝗦𝗘𝗟𝗙 {} 😃
+♧ 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 {} ☏︎
 
-➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
+➻ ♕︎𝐇𝐞𝐲! 𝐈'𝐚𝐦 𝐓𝐡𝐞 𝐌𝐨𝐬𝐭 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦'𝐬 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭𝐁𝐨𝐭.
+𝐅𝐚𝐜𝐢𝐧𝐠 𝐏𝐫𝐨𝐛𝐥𝐞𝐦𝐬 𝐖𝐢𝐭𝐡 𝐌𝐞 🛃 𝐑𝐞𝐩𝐨𝐫𝐭 𝐇𝐞𝐫𝐞 » [ᴄʀᴜsʜ_ᴡᴏʀʟᴅ_xᴅ](https://t.me/Crush_World_xD
 
-𝐘𝐄 𝐁𝐎𝐓 𝐁𝐇𝐈 𝐃𝐄𝐊𝐇 𝐋𝐎 𝐘𝐑 𝐁𝐎𝐇𝐎𝐓 𝐀𝐌𝐀𝐙𝐈𝐍𝐆 𝐇𝐀𝐈🙈👇👇
-┏━━━━━━━━━━━━━━━━━━┓
-┣★ [MISS ROSE ROBOT](https://t.me/miss_rose_robot) 🌹
-┣★ [TG MANAGER ROBOT](https://t.me/tg_manager_robot) 💫
-┣★ [THE KANISHKA BOT](https://t.me/the_kanishka_bot) 💥
-┣★ 𝐄𝐍𝐉𝐎𝐘 𝐊𝐑𝐎 😂💃💃 
-┗━━━━━━━━━━━━━━━━━━┛
 
-⏤͟͟͞͞•𓊈𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 ≛⃝🕊[@THE_VIP_BOY](https://t.me/the_vip_boy)⛦⃕͜🇮🇳𓊉
 
-๏ *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ 𝐇𝐎𝐓 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 ʙᴜᴛᴛᴏɴ* .
+๏ *🎑𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐓𝐡𝐞 𝐇𝐞𝐥𝐩 𝐁𝐮𝐭𝐭𝐨𝐧🤖* .
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🕊️𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄 & 𝐀𝐃𝐃 𝐅𝐀𝐒𝐓🕊️",
-            url=f"https://t.me/TG_MANAGER_ROBOT?startgroup=true",
+            text="🔰 𝐀𝐝𝐝 𝐆𝐨𝐨𝐠𝐥𝐞_𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭_𝐁𝐨𝐭 🛠️",
+            url=f"https://t.me/GoogleManagementBot?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🥵𝐇𝐎𝐓 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒🥵", callback_data="help_back"),
+        InlineKeyboardButton(text="𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="⚡𝐉𝐀𝐀𝐍⚡", url=f"https://t.me/LOVERS_DUNIA"),
-        InlineKeyboardButton(text="🥀𝐏𝐀𝐏𝐀 𝐉𝐈🥀", url=f"https://t.me/THE_VIP_BOY"),
-        InlineKeyboardButton(text="💫𝐏𝐑𝐀𝐍💫", url=f"https://t.me/vip_creators"),
+        InlineKeyboardButton(text="📝𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩📥", url=f"https://t.me/Crush_World_xD"),
+        InlineKeyboardButton(text="🥀𝐎𝐰𝐧𝐞𝐫🥀", url=f"https://t.me/AnonymousBoyxD"),
+        InlineKeyboardButton(text="📫𝐔𝐩𝐝𝐚𝐭𝐞𝐬📬", url=f"https://t.me/vip_creators"),
     ],
     [
         InlineKeyboardButton(
-            text="🥳𝐁𝐎𝐓 𝐑𝐄𝐏𝐎/𝐒𝐎𝐔𝐑𝐂𝐄🤩",
-            url=f"https://github.com/THE-VIP-BOY-OP/VIP-ROBOT",
+            text="♕︎𝐌𝐲 𝐑𝐞𝐩𝐨🤖",
+            url=f"https://te.legra.ph/file/c2f013fe02b88787f68a8.mp4",
         ),
     ],
 ]
@@ -136,11 +129,11 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 HELP_STRINGS = f"""
-*» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
+*» {BOT_NAME} 𝐆𝐨𝐨𝐠𝐥𝐞𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭𝐁𝐨𝐭*
 
-𝐘𝐄𝐇 𝐉𝐎𝐈𝐍 𝐊𝐑 𝐋𝐎 𝐘𝐀𝐀𝐑𝐀 ➪ [🔥『LOVERS GROUP』🔥](https://t.me/lovers_dunia)
+
                    
-⏤͟͟͞͞•𓊈𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 ≛⃝🕊[@THE_VIP_BOY](https://t.me/the_vip_boy)⛦⃕͜🇮🇳𓊉
+⏤͟͟͞͞•𓊈𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 » [𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬𝐁𝐨𝐲𝐱𝐃(https://t.me/AnonymousBoyxD)
 """
 	          
 
